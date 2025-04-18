@@ -36,5 +36,5 @@ Route::get('/dashboard', function (Request $request) {
     // Store user in session
     Session::put('user', $user);
 
-    return view('dashboard', compact(['user', 'firstName', 'lastName', 'username', 'photoUrl']));
-})->name('dashboard');
+    return view('home', compact(['user', 'firstName', 'lastName', 'username', 'photoUrl']));
+})->name('home');
