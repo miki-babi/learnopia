@@ -55,8 +55,8 @@
 </header>
 <main>
 
-    <h1 class="text-3xl font-bold text-center mt-10">
-       welcome to learnopia <span class="text-blue-600">{{ Auth::user()->name }}</span>    
+    <h1 class="text-xl font-semibold text-center mt-6">
+        Welcome, <span class="text-blue-600">{{ Auth::user()->name }}</span>!
     </h1>
 
 </main>
