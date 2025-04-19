@@ -60,15 +60,24 @@
     </h1>
 
     <div class="flex flex-col items-center mt-8 space-y-4">
-        <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-            Button 1
-        </div>
-        <div class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-            Button 2
-        </div>
-        <div class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-            Button 3
-        </div>
+        <div class="flex flex-col items-center mt-8 space-y-4">
+            <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+              <span class="font-semibold">Comparison</span><br />
+              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+            </div>
+          </div>
+          <div class="flex flex-col items-center mt-8 space-y-4">
+            <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+              <span class="font-semibold">Comparison</span><br />
+              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+            </div>
+          </div>
+          <div class="flex flex-col items-center mt-8 space-y-4">
+            <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+              <span class="font-semibold">Comparison</span><br />
+              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+            </div>
+          </div>
     </div>
 
 </main>
