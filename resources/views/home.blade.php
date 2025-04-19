@@ -59,6 +59,12 @@
         Welcome, <span class="text-blue-600">{{ Auth::user()->name }}</span>!
     </h1>
 
+    <div class="flex justify-center mt-8 space-x-4">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Button 1</button>
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Button 2</button>
+        <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Button 3</button>
+    </div>
+
 </main>
     
 
