@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    
+    <div>
+        <h1>Welcome to Learnopia</h1>
+        <p>Loading...</p>
+    </div>
     <script>
     
     
