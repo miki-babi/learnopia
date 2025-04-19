@@ -62,20 +62,22 @@
     <div class="flex flex-col items-center mt-8 space-y-4">
         <div class="flex flex-col items-center mt-8 space-y-4">
             <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-              <span class="font-semibold">Comparison</span><br />
-              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+                <span class="font-semibold">Physics</span><br />
+                <span class="text-sm">Discover 3D models and explore the fascinating world of physics in a new dimension.</span>
+            </div>
             </div>
           </div>
           <div class="flex flex-col items-center mt-8 space-y-4">
             <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-              <span class="font-semibold">Comparison</span><br />
-              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+                <span class="font-semibold">Chemistry</span><br />
+                <span class="text-sm">Explore the molecular world with interactive 3D models and chemical simulations.</span>
+            </div>
             </div>
           </div>
           <div class="flex flex-col items-center mt-8 space-y-4">
             <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
-              <span class="font-semibold">Comparison</span><br />
-              <span class="text-sm">Comparison of Better Auth versus over other auth libraries</span>
+              <span class="font-semibold">Biology</span><br />
+            <span class="text-sm">Dive into the intricacies of life with 3D models and interactive biological simulations.</span>
             </div>
           </div>
     </div>
