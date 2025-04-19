@@ -53,16 +53,22 @@
         </ul>
     </div>
 </header>
-<main>
+<main class="bg-gray-900 text-white min-h-screen p-6">
 
     <h1 class="text-xl font-semibold text-center mt-6">
-        Welcome, <span class="text-blue-600">{{ Auth::user()->name }}</span>!
+        Welcome, <span class="text-blue-400">{{ Auth::user()->name }}</span>!
     </h1>
 
-    <div class="flex justify-center mt-8 space-x-4">
-        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Button 1</button>
-        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Button 2</button>
-        <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Button 3</button>
+    <div class="flex flex-col items-center mt-8 space-y-4">
+        <div class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+            Button 1
+        </div>
+        <div class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+            Button 2
+        </div>
+        <div class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 backdrop-blur-md bg-opacity-30 shadow-lg cursor-pointer">
+            Button 3
+        </div>
     </div>
 
 </main>
