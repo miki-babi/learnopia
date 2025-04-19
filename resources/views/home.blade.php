@@ -11,6 +11,8 @@
 <body x-data= "{
      open: false,
 }" class="bg-white" id="app">
+
+<header>
     <div class="text-sky-500 text-2xl font-bold p-4 rounded-lg bg-gray-100 shadow-md flex items-center justify-between">
         <div class="text-black"  @click="open = !open">
             <div x-show="!open" class="p-2 hover:bg-gray-200  border-2 rounded-md cursor-pointer">
@@ -50,10 +52,17 @@
             </li>
         </ul>
     </div>
-    <h1   class="text-2xl">
-        {{-- {{ dd(Auth::user()) }} --}}
-       welcome   {{ Auth::user()->name }}  
+</header>
+<main>
+
+    <h1 class="text-3xl font-bold text-center mt-10">
+       welcome to learnopia <span class="text-blue-600">{{ Auth::user()->name }}</span>    
     </h1>
+
+</main>
+    
+
+    
 
     
 </body>
