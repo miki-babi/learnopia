@@ -24,8 +24,8 @@
                   </svg>   
             </div>
         </div>
-        <div class="flex flex-row items-center">
-            <p class="mr-4">
+        <div class="flex flex-row justify-between items-center">
+            <p class="">
                 Learn<span class="text-sky-500">opia</span>
             </p> 
             <img src="{{ $photoUrl }}" alt="User Photo" class="rounded-full w-16 h-16">
